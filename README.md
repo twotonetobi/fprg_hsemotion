@@ -37,6 +37,11 @@ It is also possible to install it via pip:
 
 ## Usage for FPRG Project 03
 
+Use ```check_emo_folder.py``` to check all images of the given folders. You should adjust the past and the annex.
+
+To evluate the metrics and the plots, the generated .pkl files can be used. Just use the ```evaluate.py``` function. It reads all the .pkl files of te given folder
+
+
 
 ## Generic Usage
 
