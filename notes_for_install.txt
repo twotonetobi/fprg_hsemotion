@@ -1,0 +1,12 @@
+# specify version
+pip install torchvision==0.14.0
+
+# specify version
+pip install timm==0.6.13
+
+# instead of opencv-python
+pip install opencv-python-headless
+
+# also install torchvision
+pip install facenet-pytorch
+
