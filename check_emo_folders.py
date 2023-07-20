@@ -80,7 +80,9 @@ if __name__ == '__main__':
     path = '/media/herbie/Tamarinde/restored_images_face_recon_gfpgan2/'
     annex = '_recon_gfpgan'
     folder_emotion(path, annex)
+    
 
+    ```
     path = '/media/herbie/Tamarinde/restored_images_pix2pix2_gfpgan2/'
     annex = '_pix2pix_gfpgan'
     folder_emotion(path, annex)
@@ -112,3 +114,4 @@ if __name__ == '__main__':
     path = '/media/herbie/Tamarinde/meta_pro_avatar/'
     annex = '_meta_pro_real_pix2pix_codeformer'
     folder_emotion(path, annex)
+    ```
