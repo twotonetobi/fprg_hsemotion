@@ -73,16 +73,16 @@ if __name__ == '__main__':
 
     # check all the generated folders and generate the corresponding csv and pkl files for data analysis
     # adopt for your path
-    path = '/media/herbie/Tamarinde/original_images2/'
+    path = 'inputs/01_orig/'
     annex = '_orig'
     folder_emotion(path, annex)
 
-    path = '/media/herbie/Tamarinde/restored_images_face_recon_gfpgan2/'
+    path = 'inputs/01_recon_gfpgan/'
     annex = '_recon_gfpgan'
     folder_emotion(path, annex)
     
 
-    ```
+    ''' 
     path = '/media/herbie/Tamarinde/restored_images_pix2pix2_gfpgan2/'
     annex = '_pix2pix_gfpgan'
     folder_emotion(path, annex)
@@ -114,4 +114,4 @@ if __name__ == '__main__':
     path = '/media/herbie/Tamarinde/meta_pro_avatar/'
     annex = '_meta_pro_real_pix2pix_codeformer'
     folder_emotion(path, annex)
-    ```
+    ''' 
