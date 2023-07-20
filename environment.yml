@@ -1,4 +1,4 @@
-name: HSEmotion_
+name: HSEmotion
 channels:
   - defaults
 dependencies:
@@ -140,4 +140,3 @@ dependencies:
     - torch==1.13.0
     - torchvision==0.14.0
     - tqdm==4.65.0
-prefix: /home/herbie/anaconda3/envs/HSEmotion_
