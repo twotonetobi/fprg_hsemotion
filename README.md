@@ -16,7 +16,7 @@ Tested with Ubuntu 22.04. GPU: RTX3080TI 16GBVRAM
 Use environment.yml to generate conda environment with
 
 ```
-conda create --name MyEnvironment --file environment.yml
+conda env create --file environment.yml -n HSEmotion
 ```
 
 check also 
